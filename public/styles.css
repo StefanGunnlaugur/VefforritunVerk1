@@ -1,0 +1,139 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #eee;
+  color:#333;
+  box-sizing: border-box;
+  font-family: 'Lora', serif;
+  font-size: 16px;
+
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+.Haus-mynd{
+  background-image: url('header.jpg');
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100%;
+  height: 30em;
+  text-align:center;
+}
+
+.Fyrirsogn{
+  margin-bottom: 0;
+  padding-top: 4.5em;
+  color: #eee;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+.Greinar-container{
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+@media(min-width = 600px){
+  .grein{
+    width: 100%
+    min-width: 100%;
+  }
+}
+
+.grein a{
+  color:#333;
+}
+
+.tilBaka{
+  padding-top: 15px;
+  font-weight: bold;
+}
+
+.baka{
+  margin-top: 30px;
+  text-align: center;
+}
+
+.link{
+  text-decoration: none;
+}
+.grein-body :nth-child(n){
+  padding-top: 15px;
+}
+blockquote{
+  padding-top: 15px;
+  padding-right: 15px;
+  font-style:italic;
+}
+
+.grein {
+  margin: 3%;
+  min-width: 44%;
+}
+
+.info :nth-child(1){
+  font-size: 3em;
+}
+
+.info :nth-child(1){
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+}
+
+.info :nth-child(2){
+  font-size: 1.5em;
+}
+.Haus-mynd :nth-child(1){
+  margin-bottom: 0;
+  padding-top: 4em;
+  color: #eee;
+  font-family: 'Roboto', sans-serif;
+  font-size: 3em;
+  font-weight: bold;
+}
+
+h1{
+  font-family: 'Roboto', sans-serif;
+  font-size: 2em;
+}
+
+h2{
+  font-family: 'Roboto', sans-serif;
+  font-size: 1.5em;
+}
+
+.grein-body{
+  padding: 15px
+}
+
+.Mynd1{
+  height: 30em;
+  width: 100%;
+  background-color: #666;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.Mynd2{
+  height: 30em;
+  width: 100%;
+  background-color: #666;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.Mynd{
+  height: 30em;
+  background-color: #666;
+  width: 100%;
+}
